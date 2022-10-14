@@ -1,6 +1,19 @@
 # ARC CMS: HOW-TO
 > Instructions for ARC "zero-to-hero" for present and future volunteers interested in contributing to the website.
 
+## Table of Contents
+- **[Non-Technical Overview](#contributor-guide)**
+-   [How to: Add, Remove, Edit a File](#general-ui-actions-review-for-non-technical-contributors)
+-   [Add to the "Big Ideas" Page](#adding-big-ideas-posts)
+-   [Add a Blog Post](#adding-blog-posts)
+-   [Add a pet to the "Featured Pets" Slideshow](#adding-featured-pets-to-slideshow)
+-   [Add images to the xmas Page](#holidays-only-adding-to-x-mas-page)
+- **[Developer Overview](#developer-overview)**
+-   [Understand the project Layout](#understanding-the-file-structure)
+-   [Add New Pages](#pages-and-branding)
+-   [Add templates/blocks to library](#adding-content-blocks)
+
+
 ## Contributor Guide
 For each of the following how-tos, please ensure that you are signed into your GitHub account. If you do not have a GitHub account, please create one [here](https://github.com/signup).
 
