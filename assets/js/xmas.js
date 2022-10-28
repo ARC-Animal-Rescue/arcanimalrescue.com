@@ -35,11 +35,17 @@ async function checkControls() {
   if (!next) {
     document.getElementById('next').style.color = 'gray';
     document.getElementById('next').style.cursor = 'default';
-  } else document.getElementById('next').onclick = () => nextYear(year);
+  } else { 
+    document.getElementById('next').onclick = () => nextYear(year);
+    document.getElementById('next').style.cursor = 'cursor';
+  }
   if (!prev) {
     document.getElementById('prev').style.color = 'gray';
     document.getElementById('prev').style.cursor = 'default';
-  } else document.getElementById('next').onclick = () => nextYear(year);
+  } else {
+    document.getElementById('prev').onclick = () => prevYear(year);
+    document.getElementById('prev').style.cursor = 'cursor';
+  }
 }
 
 window.onload = async function() {
