@@ -35,11 +35,11 @@ async function checkControls() {
   if (!next) {
     document.getElementById('next').style.color = 'gray';
     document.getElementById('next').style.cursor = 'default';
-  }
+  } else document.getElementById('next').onclick = () => nextYear(year);
   if (!prev) {
     document.getElementById('prev').style.color = 'gray';
     document.getElementById('prev').style.cursor = 'default';
-  }
+  } else document.getElementById('next').onclick = () => nextYear(year);
 }
 
 window.onload = async function() {
