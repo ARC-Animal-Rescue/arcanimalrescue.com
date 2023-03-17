@@ -12,4 +12,4 @@ async function replaceBlocks() {
   }
 };
 
-window.addEventListener('load', replaceBlocks);
+window.addEventListener('DOMContentLoaded', replaceBlocks);
