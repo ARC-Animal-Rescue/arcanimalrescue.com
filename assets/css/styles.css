@@ -18,6 +18,12 @@ body {
     font-size: 2em;
 }
 
+.red {
+  text-align: center;
+  color: red;
+  font-size: 20px;
+}
+
 .nav {
 	display: inline-block;
     width: 100%;
