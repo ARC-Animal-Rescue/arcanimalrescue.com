@@ -33,7 +33,7 @@ body {
 }
 
 .nav img {
-    max-width: 10vw;
+    max-width: 12vw;
     max-height: 25vh;
     filter: invert(97%) sepia(15%) saturate(2%) hue-rotate(180deg) brightness(116%) contrast(100%);
 }
